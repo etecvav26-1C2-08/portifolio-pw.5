@@ -6,7 +6,9 @@
 <p>Bom, este é um portifólio criado especialmente para a atividade passada pelo professor em que podiamos ter outros grupos, por isso decidimos nos juntar, como um grupo de cinco pessoas, para fazer. 
  Por isso um único portifólio foi feito para maior organização e separação das ativiades feitas pelo grupo de três pessoas e o formado com todos nos cinco.
  Esperamos que consiga compreender nossa programção e que aproveite o site que fizemos com muito esforço e trabalho em equipe!!</p>
+
 ---
+
 ## 👥 Integrantes
 
 | Nome | GitHub |
