@@ -1,0 +1,122 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fcf8f8; /* Branco levemente aquecido */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    color: #8b0000; /* Vermelho Escuro */
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #666;
+    font-style: italic;
+}
+
+.section-title {
+    color: #a31d1d; /* Vermelho Tom de Destaque */
+    font-size: 2rem;
+    position: relative;
+}
+
+/* O CONTAINER PAI: Centraliza os blocos e quebra a linha dinamicamente */
+.team-grid {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Deixa todos os cards com a mesma altura */
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* O CARD INDIVIDUAL */
+.member-card {
+    background-color: #ffffff;
+    border-top: 5px solid #a31d1d; /* Detalhe vermelho no topo do card */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(163, 29, 29, 0.08); /* Sombra sutil em tom vermelho */
+    width: 220px;
+    padding: 25px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de passar o mouse por cima do card */
+.member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(163, 29, 29, 0.15);
+}
+
+/* Customização das Fotos */
+.member-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Torna a foto perfeitamente redonda */
+    object-fit: cover;
+    margin: 0 auto 15px auto;
+    border: 3px solid #a31d1d; /* Borda vermelha na foto */
+}
+
+.member-card h3 {
+    margin: 10px 0 5px 0;
+    color: #222;
+    font-size: 1.25rem;
+}
+
+.role {
+    color: #a31d1d;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+
+.bio {
+    font-size: 0.85rem;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    flex-grow: 1; /* Garante que o texto ocupe o espaço e empurre os links para o rodapé do card */
+}
+
+/* Estilização dos Links de Redes Sociais */
+.social-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #a31d1d;
+    border: 1px solid #a31d1d;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+/* Efeito hover nos botões de link */
+.social-nav a:hover {
+    background-color: #a31d1d;
+    color: #ffffff;
+}
+
+/* Rodapé da página */
+footer {
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
