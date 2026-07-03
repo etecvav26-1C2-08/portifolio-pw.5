@@ -1,0 +1,147 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fcf8f8; /* Um branco levemente aquecido para combinar com o vinho */
+    color: #4a1515; /* Vinho bem escuro para excelente leitura */
+    line-height: 1.6;
+    padding-bottom: 60px; /* Evita que o footer fixo cubra o conteúdo */
+}
+
+header {
+    background-color: #581818; /* Vinho elegante/bordô */
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo h1 {
+    color: #ffffff; /* Branco para destacar no header */
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.logo h1 span {
+    color: #ffcccc; /* Um rosa/branco suave para o destaque da logo */
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcccc; /* Destaque ao passar o mouse */
+}
+
+.hero {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    /* Gradiente indo do vinho profundo para um tom quase preto/vinho */
+    background: linear-gradient(rgba(56, 12, 12, 0.85), rgba(26, 5, 5, 0.95));
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.hero h2 span {
+    color: #ffcccc;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 30px;
+    color: #f5e6e6; /* Branco suave para contraste no fundo escuro */
+}
+
+.btn-enter {
+    display: inline-block;
+    background-color: #ffffff; /* Botão branco para contrastar no hero escuro */
+    color: #581818; /* Texto em vinho */
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-enter:hover {
+    background-color: #581818; /* Inverte as cores no hover */
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Nova Seção: Sobre Nós */
+.about-section {
+    background-color: #ffffff;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    max-width: 800px;
+    text-align: center;
+}
+
+.about-container h2 {
+    font-size: 36px;
+    color: #581818; /* Vinho principal */
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-container h2 span {
+    color: #8a2525; /* Vinho ligeiramente mais claro para o span */
+}
+
+.about-container p {
+    font-size: 17px;
+    color: #4a1515; /* Texto legível */
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-container strong {
+    color: #8a2525;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #581818; /* Mantém a identidade do header */
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    z-index: 1000;
+}
